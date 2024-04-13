@@ -1,0 +1,3 @@
+pip install -r requirements.txt
+python manage.py loaddate fixtures/goods/categories.json
+python manage.py loaddate fixtures/goods/products.json
